@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+
+    <title>Primeiro Formulário</title>
+</head>
+<body>
+
+    <main>
+        <form method="GET" action="./action/teste.php"> <!-- ./ e o nome do arquivo pq estão na mesma pasta -->
+            <!-- "http://localhost/mariaLRT/aula1/teste.php" -->
+            <!-- "http://10.107.144.32/prof-rafael/teste.php" -->
+
+            <h1>Cadastro</h1>
+            
+            <div class="nomeSobrenome">
+                <div class="nome">
+                    <label for="textNome">Nome:</label>
+                    <input id="textNome" type="text" name="nome" >
+                </div>
+    
+                <div class="sobrenome">
+                    <label for="textSobrenome">Sobrenome:</label>
+                    <input id="textSobrenome" type="text" name="sobrenome">
+                </div>
+            </div>
+
+            <div class="idadeLinguagem">
+
+                <div class="idade">
+                    <label for="textIdade">Idade:</label>
+                    <input id="textIdade" type="number" name="idade">
+                </div>
+    
+                <div class="linguagem">
+    
+                    <label for="selectLinguagem">Linguagem preferida</label>
+                    <select name="linguagem" id="selectLinguagem">
+                        <option value="Java">Java</option>
+                        <option value="PHP">PHP</option>
+                        <option value="NodeJS">NodeJS</option>
+                        <option value="C#">C#</option>
+                        <option value="Ruby">Ruby</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button>Enviar</button>
+            
+
+        </form>
+
+    </main>
+
+
+</body>
+</html>

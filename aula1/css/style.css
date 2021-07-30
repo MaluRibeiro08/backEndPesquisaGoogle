@@ -1,0 +1,106 @@
+main
+{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: rgb(245, 244, 244);
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    gap: 50px;
+    box-shadow: 8px 8px 10px rgb(225, 209, 241);
+    border-radius: 5px;
+
+}
+
+.nomeSobrenome
+{
+    display: flex;
+    gap: 20px;
+}
+
+#textIdade
+{
+    width: 50px;
+}
+
+.idadeLinguagem
+{
+    display: flex;
+    gap: 50px;
+}
+
+input
+{
+    border-style: dashed;
+    border-bottom-width: 1px;
+    border-color: rgb(90, 67, 104);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+
+select
+{
+    border-style: dashed;
+    border-bottom-width: 1px;
+    border-color: rgb(90, 67, 104);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    outline: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+
+option 
+{
+    font-family: 'Comfortaa', cursive;
+}
+
+
+label
+{
+    font-weight: bold;
+}
+
+h1
+{
+    color: rgb(105, 75, 124);
+}
+
+button
+{
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    border-width: 0.5px;
+    border-color:rgb(225, 209, 241);
+    background-color: transparent;
+}
+button:hover
+{
+    background-color: rgb(105, 75, 124);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
